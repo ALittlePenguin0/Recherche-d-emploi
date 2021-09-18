@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-typedef unsigned char BYTE;
+typedef unsigned char BYTE; 
 
 // Projet "Implémentation d'un DES et cryptanalyse différentielle"
 // dans le cadre du cours "Programmation pour la cryptographie" de S. Mesnager
