@@ -91,7 +91,7 @@ void debiter(){
       return;
     }
     
-    uint8_t x1=recbytet0(); 
+    uint8_t x1=recbytet0();  
     uint8_t x2=recbytet0();
     
     uint16_t solde;
