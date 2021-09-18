@@ -36,7 +36,7 @@ def MTF(A,x): #fonction move-to-front
         for j in range (0,len(Tab)):
             if Tab[j] == x[i]:
                 y.append(j)
-                Tab = movefirst(Tab,j)
+                Tab = movefirst(Tab,j) 
     return y
 
 
