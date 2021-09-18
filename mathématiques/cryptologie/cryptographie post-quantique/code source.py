@@ -94,7 +94,7 @@ def trpolynome(list_a,n,q):
     P=PolynomialRing(Z,"a")
     a=P.gen()
     I=P.ideal([a**n+1])
-    S=P.quotient_ring(I,"x")
+    S=P.quotient_ring(I,"x") 
     x=S.gen()
     tmp=0 
     j=0
