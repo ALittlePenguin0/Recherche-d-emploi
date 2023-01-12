@@ -1,0 +1,42 @@
+<html>
+<head>
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</head>
+   <body>
+      <title>Main Equipments Prediction</title>
+	  <div class="container">
+		<div class="row">
+
+		  <form action="http://localhost:5000" method="POST">
+		  	<div class="col-sm-9">
+			 <div class="form-group  purple-border">
+				  <label for="comment">Insérez tous vos équipements de la voiture</label>
+				  <textarea class="form-control" rows="2" id="query1" name="query1" rows="100" cols="200" autofocus>{{query1}}</textarea>
+			</div>
+			<div class="form-group  purple-border">
+			</div>
+			<div class="form-group  purple-border">
+			</div>
+			<div class="form-group  purple-border">
+			</div>
+			<div class="form-group  purple-border">	  
+			</div>
+			</div>
+			<div class="col-sm-3">
+			<button type="submit" class="btn btn-primary" name="submit">SUBMIT</button>
+			</div>
+		  </form>
+		  </div>
+		  
+		<div class="row"> 
+			<div class="col-sm-9">
+			<label for="comment">Les équipements principaux prédits sont : </label>
+			<textarea class="form-control" rows="2" id="comment" name="query2" rows="2" cols="5" autofocus>{{output1}}</textarea>
+			</div>
+		</div>
+	</div>		
+   </body>
+</html>
